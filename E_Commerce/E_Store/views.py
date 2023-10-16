@@ -10,3 +10,6 @@ def userlogin(request):
 
 def adminlogin(request):
     return render(request,"admin_login.html")
+
+def userdatatable(request):
+    return render(request,"user_datatable.html")
